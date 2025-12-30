@@ -1,17 +1,12 @@
-# Python
-backend/.venv/
-backend/__pycache__/
-*.pyc
-
-# Node
-frontend/node_modules/
-frontend/dist/
-
-# Data (Excel/CSV)
+# Data files (do not commit)
 backend/data/*.xlsx
 backend/data/*.xls
 backend/data/*.csv
+backend/data/*.json
 
-# OS
-.DS_Store
-Thumbs.db
+# Python/Node
+backend/.venv/
+backend/__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
