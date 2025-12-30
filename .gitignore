@@ -1,12 +1,16 @@
-# Data files (do not commit)
-backend/data/*.xlsx
-backend/data/*.xls
-backend/data/*.csv
-backend/data/*.json
+# data / excel
+*.xlsx
+*.xls
+*.csv
+backend/data/
+backend/*.db
+backend/runtime.txt
 
-# Python/Node
-backend/.venv/
-backend/__pycache__/
+# python
+.venv/
+__pycache__/
 *.pyc
+
+# node
 frontend/node_modules/
 frontend/dist/
